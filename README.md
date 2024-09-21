@@ -10,7 +10,7 @@ The auction system includes functionalities like random player selection, captai
 - **Captains and Players**: The program takes as input the names of captains, the list of players, base price, the total money each captain has, and the minimum number of players each captain needs to take.
 - **Randomized Player Selection**: Players are randomly selected using the `mt19937_64` random number generator until they are sold. Unsold players are returned to the pool for future bidding rounds. 
 - **Bidding and Money Tracking**: After each player is sold, the program updates and displays the captain's remaining budget and the maximum bid price.
-- **Manual Auction Input**: The final values at which each player is sold and to which captain are inputted offline. Enter '-1' incase a player is unsold.
+- **Manual Auction Input**: The final values at which each player is sold and to which captain are inputted offline. Enter `-1` incase a player is unsold.
 - **Round-Robin Distribution**: If players need to be distributed randomly at any point, a round-robin mechanism is available to allocate players evenly among captains.
 - **Precautions for crashing**: There are already checks within the code, so that the code does not crash incase there is spelling mistake and confirmation for a major step taken . But, the input should be given carefully.
 
